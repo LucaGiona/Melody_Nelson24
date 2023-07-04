@@ -1,0 +1,28 @@
+:root{
+ --gold:#ffd700;
+ --font:lightgrey;
+ --background: rgb(30, 30, 30);
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+}
+html{
+ max-width:100%;
+}
+body{
+ font-family: 'Poiret One',sans-serif;
+ color:var(--font);
+ background: var(--background);
+ letter-spacing: 1.5px;
+ line-height: 1em;
+ padding: .2em;
+ 
+}
+.wrapper{
+ width: 90%;
+ margin: 0 auto;
+}
+
+
