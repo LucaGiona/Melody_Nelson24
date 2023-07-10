@@ -61,37 +61,54 @@ a{ font-size: 0.7rem;}
 
 /*ANCHOR BILD TITEL*/
 
-.bild{
-  width:fit-content;
-  margin:0 auto;
-}
+
 
 .schrift_in_bild{
  
     background-image: url(/BilderJane/Janetropez.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:  center top;
-  
+    background-position:  center;
+  /* opacity: .5; */
+  aspect-ratio: ;
   color:var(--gold);
-
-  font-size: .8rem;
-  letter-spacing: 1rem;
+margin: 0 auto;
+  border: 2px solid rgb(241, 222, 11);
+   position: relative; 
 }
 
-.hours1{
-  padding: 1.2em;
- 
-  background-color: rgba(63, 63, 63, 0.2);
+.opening-hours1{
+
+  font-size: 1rem;
+  margin:0 auto;
+  /* position: absolute; */
+
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+
   text-shadow: 1px 1px 2px rgb(18, 18, 18);
   text-transform: uppercase;
   line-height: 1.8em;
   letter-spacing: 1rem;
   max-width:fit-content;
-  margin: 1.2em auto;
+  /* margin: 1.2em auto; */
+  /* position: absolute; */
+  
+  /* left: 0;
+  right: 0; */
+
+ 
+   border: 1px solid rgb(251, 36, 255);
 
 }
 
+.till_late {
+  border: 1px solid green;
+  padding-top: 2rem;
+  text-transform: lowercase;
+  font-size: calc(1rem - 20%);
+}
 
 
 
