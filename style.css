@@ -558,7 +558,7 @@ padding: 1em 2em;
   text-transform: uppercase;
 }
   
-.karte{
+.karte, .explic{
   color:var(--gold);
   text-decoration: none;
   font-size: 1.5em;
@@ -575,12 +575,17 @@ padding: 1em 2em;
   letter-spacing: .3rem;
   margin-bottom: 1em;
 }
+/* ANCHOR icons Karten und pdfs */
+
+
 .cocktailschale{
-  width:3rem;
+  width:3.5rem;
   background-color: var(--gold);
 }
-.cocktailschale:hover{
-
+.cocktailschale:hover,
+.cocktailschale.focus{
+/* background-image: url(/KartenIcons/cocktail-glass-with-liquor2.png); */
  background-color: aqua;
+
   
 }
