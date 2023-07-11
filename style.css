@@ -70,66 +70,153 @@ a{ font-size: 0.7rem;}
     background-repeat: no-repeat;
     background-position:  center;
   /* opacity: .5; */
-  aspect-ratio: ;
+
   color:var(--gold);
-margin: 0 auto;
-  border: 2px solid rgb(241, 222, 11);
-   position: relative; 
+  border: 2px solid var(--gold);
+   /* position: relative;  */
+   height: 300px;
+   max-width: 500px;
+   margin: 0  auto;  
 }
 
-.opening-hours1{
 
-  font-size: 1rem;
-  margin:0 auto;
-  /* position: absolute; */
+.woche{
+  position: relative;
+  /* background-color: rgb(226, 220, 43); */
+  height: 20px;
+  /* max-width: 20%; */
+  width: 20%;
+  margin-left: 1.4vw;
+  /* margin-bottom: 18vw; */
+}
+.mo_fr{
+  position: absolute;
+  right: 6%;
+  top: 217%;
+  /* font-size: 1rem; */
+  /* text-shadow: 1px 1px 2px rgb(18, 18, 18); */
+  /* text-transform: uppercase; */
+  line-height: 155%;
+  /* letter-spacing: .2rem; */
+margin-top: 7%;
+margin-bottom: 7%;
+/* padding: 20px; */
+/* height: 300px; */
 
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
-
-  text-shadow: 1px 1px 2px rgb(18, 18, 18);
-  text-transform: uppercase;
-  line-height: 1.8em;
-  letter-spacing: 1rem;
-  max-width:fit-content;
-  /* margin: 1.2em auto; */
-  /* position: absolute; */
-  
-  /* left: 0;
-  right: 0; */
-
+ /* display: flex;
+ flex-direction: column;
+ align-items: center; */
  
-   border: 1px solid rgb(251, 36, 255);
+/* color: rgb(10, 199, 252); */
+ 
+/* background-color: greenyellow; */
+/* opacity: .9; */
+
+
+
+   /* border: 1px solid rgb(251, 36, 255); */
 
 }
 
-.till_late {
+/* .till_late {
+  color: yellow;
   border: 1px solid green;
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-transform: lowercase;
   font-size: calc(1rem - 20%);
-}
-
-
-
- 
-@media (min-width:660px)  {
-
-  .schrift{
-    background-image:url(/BilderJane/Janetropez.png);
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
   
+} */
+/* Öffnungszeiten Samstag */
+.platz{
+  margin-top: 22%;
+}
+.sam{
+  position: relative;
+  /* background-color: blueviolet; */
+  height: 20px;
+  width: 20%;
+  margin-left: 1vw;
+}
+.samstag, .spaet {
+  position: absolute;
+  right: 6%;
+  /* left: 390%; */
+  top: 317%;
+  line-height: 155%;
+  width: max-content;
+  
+  
+}
+.spaet{
+  margin-top: 2.8rem;
+  padding: 4%;
+  color: pink; 
 
 }
+
+/* ANCHOR media - phone */
+@media screen and (max-width: 420px){
+  .schrift_in_bild {
+    max-width: 200px;
+    height:400px;
+   
+  }
+  .woche{
+    position: relative;
+    /* background-color: rgb(226, 220, 43); */
+    height: 2px;
+    width: 200px;
+    margin: 0 auto;
+    transform: translate(-25%, -40%)
+
+    /* margin-bottom: 18vw; */
+  }
+  .mo_fr{
+    position: absolute;
+  
+    line-height: 155%;
+  }
+  
+  .sam{
+    position: relative;
+    /* background-color: blueviolet; */
+    /* height: 80px; */
+    width: 60%;
+    margin-top: 160%;
+  }
+
+  .samstag, .spaet {
+    position: absolute;
+    font-size: .8rem;
+    left: 55%;
+    top: 16%;
+    line-height: 155%;
+    padding-top: .1rem;
+    /* margin-right: 390%; */
+
+    /* background-color: aqua; */
+    
+    
+  }
+  .spaet {
+     color: pink; 
+     top: -10%;
+    right: 0%;
+    margin-bottom: 2px; 
+  
+  }
+
+  
+}
+ 
+
+
+
 #titel_beschreibung{
   font-size: 0;
   color: var(--backgorund);
 }
-}
+
 
 /* 
 ANCHOR contact */
@@ -589,3 +676,21 @@ padding: 1em 2em;
 
   
 }
+
+
+
+
+  
+  @media only screen and (min-width: 600px){
+    .info-box, .contact {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: calc(500px - 3%);
+      /* color: pink; */
+      /* background-color: rgb(74, 74, 124); */
+      margin: 0 auto;
+  
+    }
+  }
