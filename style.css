@@ -677,7 +677,8 @@ padding: 1em 2em;
   border: 1px solid var(--gold);
   text-decoration: none;
   font-size: 1.5em;
-  background:rgb(104, 74, 74)
+  background:rgb(104, 74, 74);
+  color: var(--font);
 }
 
 .text_karte{
@@ -694,9 +695,10 @@ padding: 1em 2em;
   background-color: var(--gold);
 }
 .cocktailschale:hover,
-.cocktailschale.focus{
+.cocktailschale:focus{
 /* background-image: url(/KartenIcons/cocktail-glass-with-liquor2.png); */
-background-color:rgb(104, 74, 74)
+background-color:rgb(104, 74, 74);
+color: var(--font);
 
   
 }
