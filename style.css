@@ -45,6 +45,14 @@ a{ font-size: 0.7rem;}
 
 
 /* ANCHOR header */
+.header{
+  width: 90%;
+  margin: 0 auto;
+}
+.maintitle {
+  margin-top: 2rem;
+}
+
 
 #titel_beschreibung{
   font-size: 0;
