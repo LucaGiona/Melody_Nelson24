@@ -63,9 +63,17 @@ a{ font-size: 0.7rem;}
  text-align: center;
  font-size: 1.2rem;
  margin-top: 1em;
- margin-bottom: 1em;
+ margin-bottom: .5em;
 }
 
+/* ANCHOR Logo Titel */
+
+.hauptlogo1, .hauptlogo{
+ aspect-ratio: 1 /1;
+ width: 6rem;
+ background-color: var(--backgorund);
+ margin: 0 auto;
+}
 
 /*ANCHOR BILD TITEL*/
 
@@ -552,7 +560,7 @@ padding: 1em 2em;
 /* Reserveration */
 .reserve1{
   width: 75%;
-  background-color: aqua;
+  /* background-color: aqua; */
   margin-bottom: 1rem;
 }
 
