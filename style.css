@@ -14,17 +14,19 @@ line-height: 1.8;
 text-align: center;
 text-transform: uppercase;
 letter-spacing: .35em;
-
 }
 
-h2{
+h2, #subtitle_street{
  font-family: 'Poiret One',sans-serif;
  line-height: 1.5;
  text-align: center;
-letter-spacing: .4em;
+  letter-spacing: .4em;
 
 }
- 
+#subtitle_street{
+  color:var(--backgorund);
+  margin-top: .4em;
+}
 
 h3{
   font-size: 1rem;
@@ -75,7 +77,7 @@ a{ font-size: 0.7rem;}
 
 .schrift_in_bild{
  
-    background-image: url(/BilderJane/Janetropez.png);
+    background-image: url;
     background-size: contain;
     background-repeat: no-repeat;
     background-position:  center;
