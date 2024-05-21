@@ -1,0 +1,33 @@
+# macOS spezifische Dateien
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Verzeichnisse und Dateien für Spotlight-Verschlüsselung
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Verzeichnisse und Dateien für Speicher
+com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# macOS spezifische temporäre Dateien
+*.swp
+*~
+
+# Andere lokale Konfigurationsdateien
+.idea/
+.vscode/
+*.log
+node_modules/
