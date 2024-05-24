@@ -14,10 +14,15 @@
  <link rel="shortcut icon" href="/Logo_Fav/Logo_Fav2.png" type="image/x-icon">
  <link rel="stylesheet" href="/css/basic.css">
  <link rel="stylesheet" href="/css/style.css">
+ <link rel="stylesheet" href="/css/button-modal.css">
+
 
  <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poiret+One&display=swap" rel="stylesheet">
+
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js" defer></script>
+<script src="./scripts/btn-scr.js" defer></script>
 
  <title>Melody-Nelson Cocktail Bar Berlin | Barfood + Reservations | Drinks + More </title>
 </head>
@@ -27,7 +32,7 @@
   <div class="background-img">
    <div class="overlay sticky">
     <div id="logo25">
-     <img src="./Icons/Logo-Melody24.png" alt="Logo" class="logo24">
+     <img src="./Icons/Logo-Melody24.png" alt="Logo" class="logo-melody">
      <h1 class="maintitle titel">Melody Nelson</h1>
      <h2 class="subtitle titel">Bar [&] Bistro</h2>
      <h2>BERLIN MITTE</h2>
@@ -64,12 +69,32 @@
   </div>
  </header>
 
- <section class="background-img2">
-  <button>arschgeige</button>
-  <button>arschgeige</button>
+<section class="background-img2"></section>
+
+ <section class="button-container">
+  <button id="openModalBtn" class="btn">
+    <span class="iconify" data-icon="mdi:calendar" data-inline="false"></span> Reservierung
+  </button>
+ 
   <br>
-  <button>arschgeige</button>
+ 
+  <a href="mailto:mail@melody-nelson.berlin" target="_self" class="btn">
+    <nobr>Anfragen:<br> Events / Gruppen</nobr>
+  </a>
+
  </section>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="./Icons/Logo-Melody24.png" alt="Melody Nelson Logo" class="logo-melody-sml">
+      <div id="widgetContainer">
+        <!-- Hier wird das OpenTable Widget eingebettet -->
+        <script type="text/javascript"
+          src="//www.opentable.de/widget/reservation/loader?rid=362739&type=standard&theme=standard&color=1&dark=false&iframe=true&domain=de&lang=de-DE&newtab=false&ot_source=Restaurant%20website&cfe=true"></script>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

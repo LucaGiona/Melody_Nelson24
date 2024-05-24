@@ -1,0 +1,80 @@
+/* zentrieren der Felder */
+.button-container {
+ position: absolute;
+ top:380px;
+ left: 50%;
+ transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px; /* Fügt Abstand zwischen den Elementen hinzu */
+  z-index: 20;
+}
+
+.btn {
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-family: 'Josefin Sans', sans-serif;
+   letter-spacing: .8px;
+   color: rgb(70, 57, 57);
+   background-color: #ffd700;
+   border: black solid .5px;
+   border-radius: 8px;
+   cursor: pointer;
+   text-align: center;
+   text-decoration: none;
+   opacity: .85;
+   width:200px;
+   max-width: 100%;
+   box-sizing: border-box;
+  }
+  .btn:hover,
+  .btn:focus {
+   background-color: lightgrey;
+   text-decoration: none;
+   cursor: pointer;
+  }
+
+  /* Stil für das modale Fenster */
+  .modal {
+   display: none;
+   position: fixed;
+   z-index: 50;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   width: 100%;
+   height: 100%;
+   max-width: 480px;
+   overflow: auto;
+   background-color: transparent;
+   padding-top: 60px;
+  }
+
+  .modal-content {
+   background-color: #918484;
+   margin: 15% 11.2%;
+   padding: 20px;
+   border: 5px solid #5c5c5c;
+   border-radius: 20px;
+   width: 80%;
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+  }
+
+  .close {
+   color: #ffd700;
+   float: right;
+   font-size: 58px;
+   font-weight:lighter;
+  }
+
+  .close:hover,
+  .close:focus {
+   color: lightgrey;
+   text-decoration: none;
+   cursor: pointer;
+  }
+
