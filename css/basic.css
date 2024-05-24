@@ -6,12 +6,14 @@ basic set up
 :root{
  --main-color:#ffd700;
  --font-color-titles:#ffd700;
- --font-color-text:lightgrey;
+ --font-color-text:#d3d3d3;
 
  /* logo size */
  --logo-max-height: 200px;
  --logo-padding: 1.2em;
  --logo-margin: .5em;
+
+ 
 }
 
 *{
