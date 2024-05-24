@@ -1,0 +1,46 @@
+/* 
+basic set up
+
+*/
+
+:root{
+ --main-color:#ffd700;
+ --font-color-titles:#ffd700;
+ --font-color-text:lightgrey;
+
+ /* logo size */
+ --logo-max-height: 200px;
+ --logo-padding: 1.2em;
+ --logo-margin: .5em;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+html{
+ max-width:100%;
+ scroll-behavior: smooth;
+}
+
+/* ============
+/*ANCHOR -  typo
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Poiret One', sans-serif;
+============= */
+
+:root{
+ --font-titles: 'Poiret One', sans-serif;
+ --font-text: 'Josefin Sans', sans-serif;
+ --font-size-large: 2rem;
+ --font-size-normal: 1rem;
+ --font-size-small: .5rem;
+ --font-letter-spacing: .1rem;
+
+}
+
+
+
