@@ -10,7 +10,7 @@ MOBILE FIRST
 :root {
   --logo-max-height: 200px;
   --logo-padding: 1.2em;
-  --main-color: #ffffff;
+  --main-color: #ffd700;
   --font-titles: 'Josefin Sans', sans-serif;
   --font-text: 'Poiret One', cursive;
 }
@@ -52,7 +52,7 @@ MOBILE FIRST
   padding: var(--logo-padding);
 }
 .logo-melody-sml {
-  height: calc(var(--logo-max-height) * 0.4);
+  height: calc(var(--logo-max-height) * 0.5);
   padding: var(--logo-padding);
 }
 
@@ -77,11 +77,62 @@ h2{
 /* google maps link */
 a{
   text-decoration: none;
+  
 }
-h3:hover{
+h3:hover,
+h3:focus{
   color: #ffd700;
  
 }
+.contact-location{
+  margin-top: .7em;
+}
+
+.contact-container {
+  margin-top: 2em;
+  margin-left: 2em;
+ 
+  width:100%;
+  max-width:450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ 
+}
+
+@media (max-width: 600px){
+  .contact-container{
+    justify-content: space-around;
+  }
+}
+
+.contact-item {
+  display: flex;
+ 
+  text-decoration: none;
+  color: var(--font-color-text);
+  font-family: var(--font-text);
+  letter-spacing: 2px;
+}
+.contact-item:hover,
+.contact-item:focus {
+ 
+  color: var(--font-color-titles);
+
+}
+
+.icon {
+  width: 70%; 
+  height: auto;
+  max-height:30px;
+  margin-right: 10px; 
+}
+.contact-item span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 /* section 1 */
 .background-img2 {
@@ -98,3 +149,6 @@ h3:hover{
 }
 
 
+h4{
+  color: white;
+}

@@ -1,15 +1,21 @@
 /* zentrieren der Felder */
 .button-container {
  position: absolute;
- top:380px;
+ top:60%;
  left: 50%;
  transform: translate(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1px; /* Fügt Abstand zwischen den Elementen hinzu */
+  gap: 1px; 
   z-index: 20;
+}
+
+@media (max-width: 480px){
+  .button-container{
+    top: 70%;
+  }
 }
 
 .btn {
@@ -55,7 +61,8 @@
 
   .modal-content {
    background-color: #918484;
-   margin: 15% 11.2%;
+   opacity: .95;
+   margin: 15% 13.2%;
    padding: 20px;
    border: 5px solid #5c5c5c;
    border-radius: 20px;
