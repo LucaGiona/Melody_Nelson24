@@ -12,9 +12,9 @@
   z-index: 20;
 }
 
-@media (max-width: 480px){
+@media (max-width: 580px){
   .button-container{
-    top: 70%;
+    top: 65%;
   }
 }
 

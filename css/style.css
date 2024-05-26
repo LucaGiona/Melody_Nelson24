@@ -21,7 +21,7 @@ MOBILE FIRST
   
   justify-content: center;
   height: 500px;
-  background-image: url('../Fotos/DanielReiter2023_MelodyNelson-103.jpg');
+  background-image: url('../Fotos/Flaschen-Melody.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -144,7 +144,7 @@ h3:focus{
   justify-content: center;
   align-items: center; */
   
-  background-image: url('../Fotos/DanielReiter2023_MelodyNelson-24.jpg');
+  background-image: url('../Fotos/TresenVorne-Melody.jpg');
   background-color: #e74949; /* Hintergrundfarbe für den Abschnitt */
 }
 
