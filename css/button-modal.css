@@ -1,7 +1,7 @@
 /* zentrieren der Felder */
 .button-container {
  position: absolute;
- top:60%;
+ top:28em;
  left: 50%;
  transform: translate(-50%);
   display: flex;
@@ -12,11 +12,6 @@
   z-index: 20;
 }
 
-@media (max-width: 580px){
-  .button-container{
-    top: 65%;
-  }
-}
 
 .btn {
    display: inline-block;
@@ -31,7 +26,7 @@
    cursor: pointer;
    text-align: center;
    text-decoration: none;
-   opacity: .85;
+   opacity: .75;
    width:200px;
    max-width: 100%;
    box-sizing: border-box;
