@@ -237,3 +237,27 @@ h3:focus{
   font-size: 1.1rem;
 }
 
+.footer{
+  background-color: black;
+  height: 5em;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .5rem;
+
+}
+
+.impr{
+  color: rgb(129, 123, 123);
+  font-family: 'Josefin Sans', sans-serif;
+  
+ 
+}
+.impr:hover,
+.impr:focus{
+  color: var(--main-color);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+}
+

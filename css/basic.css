@@ -45,5 +45,24 @@ html{
 }
 
 
+.styled-scrollbars {
+  scrollbar-width: largen;
+  scrollbar-color: white #333;
+}
+
+.styled-scrollbars::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.styled-scrollbars::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.styled-scrollbars::-webkit-scrollbar-track {
+  background: #333;
+}
+
+
 
 
