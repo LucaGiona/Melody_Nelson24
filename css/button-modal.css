@@ -80,3 +80,21 @@
    cursor: pointer;
   }
 
+
+  /* Datneschutz Impressum btn */
+.text-rights{
+  text-align: center;
+  background-color: #cec9c9;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+.impr-top{
+ position: -webkit-sticky;
+ position: sticky;
+ top:0;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 1em;
+}

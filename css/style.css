@@ -172,7 +172,7 @@ h3:focus{
   border-radius: 8px;
   border:  var(--font-color-titles) 2px solid;
   border-top: solid 1px var(--font-color-titles);
-  width:18em;
+  width:20em;
   overflow: hidden;
 }
 
@@ -236,3 +236,4 @@ h3:focus{
   color: var(--font-color-titles);
   font-size: 1.1rem;
 }
+
