@@ -94,9 +94,9 @@ h3:focus{
  
   width:100%;
   max-width:450px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   
  
 }
@@ -109,6 +109,8 @@ h3:focus{
 
 .contact-item {
   display: flex;
+  flex-direction: column;
+  align-items: center;
  
   text-decoration: none;
   color: var(--font-color-text);
@@ -127,8 +129,7 @@ h3:focus{
   max-width: 40px; 
   height: auto;
   max-height:30px;
-  margin-right: 10px; 
-}
+  margin-bottom: 10px;}
 .contact-item span{
   display: inline-block;
   vertical-align: middle;
@@ -260,5 +261,22 @@ h3:focus{
   color: var(--main-color);
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
+}
+
+/* social media */
+
+.social-media{
+  position: relative;
+}
+
+#instagram-container{
+  display: grid;
+  aspect-ratio: 1 / 1;
+}
+
+#instagram{
+ width: 3rem;
+ margin-top: -.6rem;
+ object-fit: contain;
 }
 
